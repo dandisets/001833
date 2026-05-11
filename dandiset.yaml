@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -22,14 +23,13 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-05-06T14:05:09.242323+00:00'
-description: 'This project will explore a novel strategy to improve cognitive function
-  in multi-infarct dementia mice via AAV-mediated overexpression of CYP2C11 targeting
-  peri-lesion astrocytes. CYP2C11 is a key generating enzyme of epoxyeicosatrienoic
-  acids (EETs). Localized EET production will promote vasodilation, increase cerebral
-  blood flow (CBF) in hypoperfused regions, and suppress neuroinflammation, thereby
-  potentially improving cognitive function. Thus, AAV-mediated astrocyte overexpression
-  of CYP2C11 may provide therapeutic benefit for a large patient population with a
-  significant unmet medical need of dementia therapy. '
+description: 'CYP2C11 is a key generating enzyme of epoxyeicosatrienoic acids (EETs).
+  Localized EET production will promote vasodilation, increase cerebral blood flow
+  (CBF) in hypoperfused regions, and suppress neuroinflammation, thereby potentially
+  improving cognitive function. Thus, AAV-mediated astrocyte overexpression of CYP2C11
+  may provide therapeutic benefit for a large patient population with a significant
+  unmet medical need of dementia therapy. '
+ethicsApproval: []
 id: DANDI:001833/draft
 identifier: DANDI:001833
 license:
@@ -38,8 +38,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001833/versions/draft/assets/
 name: CYP2C11 Overexpression Targeting Peri-lesion Astrocytes to Improve Cognitive
   Function in Mice with Multi-infarct Dementia
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- 'This project will explore a novel strategy to improve cognitive function in multi-infarct
+  dementia mice via AAV-mediated overexpression of CYP2C11 targeting peri-lesion astrocytes. '
 url: https://dandiarchive.org/dandiset/001833/draft
 version: draft
+wasGeneratedBy: []
