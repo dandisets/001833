@@ -3,7 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/NCIT_C34522
+  name: Multi-Infarct Dementia
+  schemaKey: Disorder
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -11,17 +14,75 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Liu, Zhongwu (2026) CYP2C11 Overexpression Targeting Peri-lesion Astrocytes
+citation: Liu, Zhongwu; McCann, M.L.; Powell, Brianna; Landschoot‐Ward, Julie; Zhang,
+  Zheng Gang; Chopp, Michael (2026) CYP2C11 Overexpression Targeting Peri-lesion Astrocytes
   to Improve Cognitive Function in Mice with Multi-infarct Dementia (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001833/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/0193sb042
+    name: Henry Ford Hospital
+    schemaKey: Affiliation
   email: liuzho14@msu.edu
   includeInCitation: true
   name: Liu, Zhongwu
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0193sb042
+    name: Henry Ford Hospital
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: McCann, M.L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0193sb042
+    name: Henry Ford Hospital
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Powell, Brianna
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0193sb042
+    name: Henry Ford Hospital
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Landschoot‐Ward, Julie
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0193sb042
+    name: Henry Ford Hospital
+    schemaKey: Affiliation
+  identifier: 0000-0002-3752-9894
+  includeInCitation: true
+  name: Zhang, Zheng Gang
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0193sb042
+    name: Henry Ford Hospital
+    schemaKey: Affiliation
+  identifier: 0000-0002-1948-4493
+  includeInCitation: true
+  name: Chopp, Michael
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: NS142762
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-05-06T14:05:09.242323+00:00'
 description: 'CYP2C11 is a key generating enzyme of epoxyeicosatrienoic acids (EETs).
   Localized EET production will promote vasodilation, increase cerebral blood flow
@@ -32,13 +93,26 @@ description: 'CYP2C11 is a key generating enzyme of epoxyeicosatrienoic acids (E
 ethicsApproval: []
 id: DANDI:001833/draft
 identifier: DANDI:001833
+keywords:
+- Multiple microinfarcts
+- Multi-infarct dementia
+- Neuroinflammation
+- Mouse model
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001833/versions/draft/assets/
 name: CYP2C11 Overexpression Targeting Peri-lesion Astrocytes to Improve Cognitive
   Function in Mice with Multi-infarct Dementia
-relatedResource: []
+relatedResource:
+- identifier: 10.1016/j.expneurol.2025.115598
+  name: A new microinfarcts model produces widespread bilateral infarcts and persistent
+    cognitive deficits in middle-aged mice
+  relation: dcite:IsDescribedBy
+  repository: Experimental Neurology
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.expneurol.2025.115598
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
