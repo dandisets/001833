@@ -14,7 +14,7 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Liu, Zhongwu; McCann, M.L.; Powell, Brianna; Landschoot‐Ward, Julie; Zhang,
+citation: Liu, Zhongwu; McCann, M.L.; Powell, Brianna; Landschoot Ward, Julie; Zhang,
   Zheng Gang; Chopp, Michael (2026) CYP2C11 Overexpression Targeting Peri-lesion Astrocytes
   to Improve Cognitive Function in Mice with Multi-infarct Dementia (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001833/draft
@@ -52,7 +52,7 @@ contributor:
     name: Henry Ford Hospital
     schemaKey: Affiliation
   includeInCitation: true
-  name: Landschoot‐Ward, Julie
+  name: Landschoot Ward, Julie
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -90,7 +90,11 @@ description: 'CYP2C11 is a key generating enzyme of epoxyeicosatrienoic acids (E
   improving cognitive function. Thus, AAV-mediated astrocyte overexpression of CYP2C11
   may provide therapeutic benefit for a large patient population with a significant
   unmet medical need of dementia therapy. '
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: '1580'
+  schemaKey: EthicsApproval
 id: DANDI:001833/draft
 identifier: DANDI:001833
 keywords:
